@@ -8,7 +8,7 @@ export default function Form() {
             <div>
 
                 <div className="flex justify-center items-center">
-                    <form className="w-full max-w-2xl bg-white p-8 md:p-10 rounded-lg shadow-md space-y-6">
+                    <form className="w-full max-w-2xl bg-[#f6f6f5]  p-8 md:p-10 rounded-lg shadow-md space-y-6">
                         <h3 className="text-2xl font-medium text-gray-900">Contact Us</h3>
 
                         <input
