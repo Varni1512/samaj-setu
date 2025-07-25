@@ -6,7 +6,7 @@ const Navbar = () => {
     const [menuOpen, setMenuOpen] = useState(false);
 
     return (
-        <nav className="bg-[#f6f6f5]  px-4 py-4 shadow-md">
+        <nav className="fixed top-0 left-0 w-full bg-[#f6f6f5] px-4 py-4 shadow-md z-50">
             <div className="max-w-7xl mx-auto flex items-center justify-between">
 
                 <Link to="/"><img src="/Logo/Logo2.png" alt="Samaj Setu" className="w-14 scale-125" /></Link>
@@ -51,7 +51,6 @@ const Navbar = () => {
                     </Link>
                 </div>
             )}
-
         </nav>
     );
 };
