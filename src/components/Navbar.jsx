@@ -9,7 +9,7 @@ const Navbar = () => {
         <nav className="bg-[#f6f6f5]  px-4 py-4 shadow-md">
             <div className="max-w-7xl mx-auto flex items-center justify-between">
 
-                <img src="/Logo/Logo2.png" alt="Samaj Setu" className="w-14 scale-125" />
+                <Link to="/"><img src="/Logo/Logo2.png" alt="Samaj Setu" className="w-14 scale-125" /></Link>
 
                 <ul className="hidden md:flex gap-x-10 text-medium">
                     <li><Link to="/" className="hover:text-[#8bc34a]">Home</Link></li>
