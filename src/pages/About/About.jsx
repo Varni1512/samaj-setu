@@ -3,7 +3,7 @@ import { FaHandHoldingHeart } from "react-icons/fa";
 
 const About = () => {
     return (
-        <div className="px-8 md:px-10 md:h-screen flex py-10 bg-white -mt-12" id="about">
+        <div className="px-8 md:px-10 md:h-screen flex py-10 bg-white " id="about">
             <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
 
 
