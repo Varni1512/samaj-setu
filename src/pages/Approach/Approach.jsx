@@ -216,7 +216,7 @@ const SamajSetuFoundation = () => {
                 <div key={index} className="border rounded-lg overflow-hidden">
                   <button
                     onClick={() => toggleSDG(index)}
-                    className="w-full flex items-center justify-between p-4 bg-gray-50 hover:bg-gray-100 transition-colors"
+                    className="w-full flex items-center cursor-pointer justify-between p-4 bg-gray-50 hover:bg-gray-100 transition-colors"
                   >
                     <div className="flex items-center space-x-4">
                       <div className={`w-12 h-12 ${sdg.color} rounded-full flex items-center justify-center text-white font-bold`}>
