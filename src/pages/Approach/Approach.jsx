@@ -172,36 +172,42 @@ const SamajSetuFoundation = () => {
       </header>
 
       <div className="max-w-7xl mx-auto px-4 py-12">
-        {/* Vision Section */}
+        {/* Vision & Mission Section */}
+        {/* Vision & Mission Section */}
         <section className="mb-16">
-          <div className="bg-white rounded-2xl shadow-lg p-8">
-            <div className="flex items-center mb-6">
-              <Globe className="w-8 h-8 text-green-600 mr-3" />
-              <h2 className="text-3xl font-bold text-gray-800">Vision Statement</h2>
+          <div className="bg-white rounded-2xl shadow-lg p-8 grid grid-cols-1 md:grid-cols-2 gap-8">
+
+            {/* Left Side - Vision Statement */}
+            <div>
+              <div className="flex items-center mb-6">
+                <Globe className="w-8 h-8 text-green-600 mr-3" />
+                <h2 className="text-3xl font-bold text-gray-800">Vision Statement</h2>
+              </div>
+              <div className="space-y-4 text-gray-700 leading-relaxed">
+                <p className="text-lg">
+                  To create a just, inclusive, and sustainable society where every individual regardless of gender, identity, or economic status has access to quality education, healthcare, clean environment, and dignified livelihoods, in harmony with the goals of global sustainable development.
+                </p>
+                <p className="text-lg">
+                  We envision a future where communities are empowered, ecosystems are protected, and development is people-centered and planet-conscious.
+                </p>
+              </div>
             </div>
-            <div className="space-y-4 text-gray-700 leading-relaxed">
-              <p className="text-lg">
-                To create a just, inclusive, and sustainable society where every individual—regardless of gender, identity, or economic status—has access to quality education, healthcare, clean environment, and dignified livelihoods, in harmony with the goals of global sustainable development.
-              </p>
-              <p className="text-lg">
-                We envision a future where communities are empowered, ecosystems are protected, and development is people-centered and planet-conscious.
+
+            {/* Right Side - Mission Statement */}
+            <div className="md:border-l md:border-gray-300 md:pl-8">
+              <div className="flex items-center mb-6">
+                <Target className="w-8 h-8 text-blue-600 mr-3" />
+                <h2 className="text-3xl font-bold text-gray-800">Mission Statement</h2>
+              </div>
+              <p className="text-lg text-gray-700 leading-relaxed">
+                Samaj Setu Foundation aims to serve as a bridge between communities, governments, and changemakers to achieve the 17 Sustainable Development Goals (SDGs). Through grassroots initiatives, innovation, and inclusive collaboration, we promote education, gender equality, climate action, sustainable agriculture, clean energy, and social equity for long-term human and environmental well-being.
               </p>
             </div>
+
           </div>
         </section>
 
-        {/* Mission Section */}
-        <section className="mb-16">
-          <div className="bg-white rounded-2xl shadow-lg p-8">
-            <div className="flex items-center mb-6">
-              <Target className="w-8 h-8 text-blue-600 mr-3" />
-              <h2 className="text-3xl font-bold text-gray-800">Mission Statement</h2>
-            </div>
-            <p className="text-lg text-gray-700 leading-relaxed">
-              Samaj Setu Foundation aims to serve as a bridge between communities, governments, and changemakers to achieve the 17 Sustainable Development Goals (SDGs). Through grassroots initiatives, innovation, and inclusive collaboration, we promote education, gender equality, climate action, sustainable agriculture, clean energy, and social equity for long-term human and environmental well-being.
-            </p>
-          </div>
-        </section>
+
 
         {/* SDGs Section */}
         <section>
@@ -210,7 +216,7 @@ const SamajSetuFoundation = () => {
               <CheckCircle className="w-8 h-8 text-purple-600 mr-3" />
               <h2 className="text-3xl font-bold text-gray-800">Objectives Aligned with the SDGs</h2>
             </div>
-            
+
             <div className="grid gap-4">
               {sdgData.map((sdg, index) => (
                 <div key={index} className="border rounded-lg overflow-hidden">
@@ -232,7 +238,7 @@ const SamajSetuFoundation = () => {
                       <ChevronDown className="w-5 h-5 text-gray-600" />
                     )}
                   </button>
-                  
+
                   {expandedSDG === index && (
                     <div className="p-4 bg-white border-t">
                       <ul className="space-y-2">

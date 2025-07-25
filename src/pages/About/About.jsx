@@ -1,67 +1,73 @@
+import { useState } from "react";
 import { RiHealthBookLine } from "react-icons/ri";
 import { FaHandHoldingHeart } from "react-icons/fa";
 
 const About = () => {
+    const [showMore, setShowMore] = useState(false);
+
     return (
-        <div className="px-8 md:px-10 md:h-screen flex py-10 bg-white " id="about">
-            <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
+        <div className="px-8 md:px-10 md:h-auto flex py-10 bg-white" id="about">
+            <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-10 items-start">
 
-
-                <div className="order-1 md:order-2">
+                {/* ✅ Image Section (Fixed / Sticky) */}
+                <div className="order-1 md:order-2 md:sticky md:top-20 self-start">
                     <img
-                        src="/About/about.png"
+                        src="/Home/home1.jpg"
                         alt="About us"
                         className="w-full h-auto rounded-lg shadow-md"
                     />
                 </div>
 
-
+                {/* Text Content Section */}
                 <div className="order-2 md:order-1">
-                    <h1 className="text-3xl font-bold mb-5 text-[#6D4C41]">About Us</h1>
+                    <h1 className="text-3xl font-bold mb-5 text-[#6D4C41]">
+                        About Samaj Setu Foundation – For Sustainable Development in Rural India
+                    </h1>
+
+                    {/* Always Visible Intro Text */}
                     <p className="text-justify text-gray-700 leading-relaxed">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt fugit amet temporibus
-                        provident voluptates voluptatem facilis laboriosam modi tempore exercitationem obcaecati,
-                        nam, magnam eveniet doloribus porro enim quis sint eos id dolorum?
+                        Samaj Setu Foundation is a non-profit organization committed to empowering rural communities through inclusive, sustainable, and participatory development. Established with a vision to bridge the gap between grassroots realities and national development goals, the foundation works as a "Setu" (bridge) connecting people, policies, and progress.
                         <br /><br />
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores quia perspiciatis
-                        quisquam cupiditate dolor esse corrupti, aliquid porro animi facilis qui? Optio distinctio
-                        nostrum error molestiae itaque maiores dicta est! Repellat, modi?
+                        Our mission is rooted in the belief that true development begins at the village level — where challenges are greatest, but the potential for transformation is even greater. Through innovative models, capacity-building programs, and convergence with government schemes, we aim to improve livelihoods, education, health, gender equality, environmental sustainability, and local governance.
                     </p>
 
-                    <ul className="grid grid-cols-1 sm:grid-cols-2 gap-6 mt-6">
-                        {[
-                            {
-                                icon: <RiHealthBookLine className="w-6 h-8 text-[#8bc34a]" />,
-                                title: "Preventive Care",
-                                subtitle: "Focus on preventing illness"
-                            },
-                            {
-                                icon: <img src="/Logo/Intelligence.png" alt="Intelligence Logo" className="w-6 h-6  " />,
-                                title: "Holistic Approach",
-                                subtitle: "Physical and mental wellbeing"
-                            },
-                            {
-                                icon: <FaHandHoldingHeart className="w-6 h-8 text-[#8bc34a]" />,
-                                title: "Community-Centered",
-                                subtitle: "Local involvement & ownership"
-                            },
-                            {
-                                icon: <img src="/Logo/Empathy.png" alt="Intelligence Logo" className="w-6 h-6" />,
-                                title: "Sustainable Solutions",
-                                subtitle: "Long-term health systems"
-                            },
-                        ].map((item, index) => (
-                            <li key={index} className="flex items-center gap-4">
-                                <div className="bg-green-50 rounded-2xl w-10 h-10 flex items-center justify-center">
-                                    {item.icon}
-                                </div>
-                                <div className="flex flex-col">
-                                    <span className="font-semibold text-[#6D4C41]">{item.title}</span>
-                                    <span className="text-sm">{item.subtitle}</span>
-                                </div>
-                            </li>
-                        ))}
-                    </ul>
+                    {/* Hidden Content (SDG List + Extra Paragraphs) */}
+                    {showMore && (
+                        <div className="mt-4 text-justify text-gray-700 leading-relaxed">
+                            <p>
+                                We actively align our initiatives with the United Nations Sustainable Development Goals (SDGs), with a special focus on:
+                            </p>
+
+                            {/* SDG List */}
+                            <ul className="list-disc pl-6 mt-4 text-gray-700 leading-relaxed">
+                                <li>No Poverty (SDG 1)</li>
+                                <li>Gender Equality (SDG 5)</li>
+                                <li>Clean Water and Sanitation (SDG 6)</li>
+                                <li>Decent Work and Economic Growth (SDG 8)</li>
+                                <li>Sustainable Communities (SDG 11)</li>
+                                <li>Climate Action (SDG 13)</li>
+                            </ul>
+
+                            <p className="mt-4">
+                                From organic farming and cow-based eco-products to skill development for rural youth, digital literacy for women, support for tribal and nomadic communities, and rights-based awareness campaigns — Samaj Setu Foundation is creating models of rural resilience and self-reliance.
+                                <br /><br />
+                                Our work is guided by the principles of transparency, inclusion, dignity, and collaboration. We invite individuals, organizations, and institutions to join us in building a rural India that is not only developed but sustainable, just, and equitable for all.
+                                <br /><br />
+                                <strong className="text-[#6D4C41]">
+                                    Together, let’s build villages of hope, hubs of innovation, and models of sustainable development.
+                                </strong>
+                            </p>
+                        </div>
+                    )}
+
+                    {/* Read More / Read Less Button */}
+                    <button
+                        onClick={() => setShowMore(!showMore)}
+                        className="mt-4 px-4 py-2 bg-[#6D4C41] text-white rounded-lg shadow hover:bg-[#5a3c33] transition"
+                    >
+                        {showMore ? "Read Less" : "Read More"}
+                    </button>
+
                 </div>
             </div>
         </div>

@@ -7,7 +7,7 @@ const AdvisorPage = () => {
             <div className="bg-white shadow-lg rounded-xl p-8 flex flex-col items-center text-center">
                 {/* Advisor Image */}
                 <img
-                    src="/advisor.jpg" // ✅ Replace with actual image path
+                    src="/advisor.jpg" 
                     alt="Advisor"
                     className="w-48 h-48 object-cover rounded-full shadow-md mb-4"
                 />

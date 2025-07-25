@@ -55,7 +55,7 @@ const Home = () => {
             <div
                 className="flex transition-transform duration-500 ease-in-out"
                 style={{ 
-                    height: '85vh', 
+                    height: '95vh', 
                     transform: `translateX(-${currentSlide * 100}%)` }}
             >
                 {bannerData.map((slide, index) => (

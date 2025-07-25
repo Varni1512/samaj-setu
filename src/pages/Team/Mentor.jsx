@@ -6,14 +6,14 @@ const MentorPage = () => {
     {
       name: "Dr. Rajesh Sharma",
       role: "Senior Advisor & Mentor",
-      image: "/mentor1.jpg", // ✅ Replace with actual image
-      resume: "/resume/mentor1-resume.pdf", // ✅ Replace with actual resume
+      image: "/mentor1.jpg", 
+      resume: "/Anurenj.pdf", 
     },
     {
       name: "Prof. Anjali Verma",
       role: "Development Consultant & Mentor",
-      image: "/mentor1.jpg", // ✅ Replace with actual image
-      resume: "/resume/mentor2-resume.pdf", // ✅ Replace with actual resume
+      image: "/mentor1.jpg",
+      resume: "/George.pdf", 
     },
   ];
 

@@ -15,7 +15,7 @@ const FoundationCard = () => {
           {/* ✅ LinkedIn Button */}
           <div className="absolute bottom-4 left-4">
             <a
-              href="https://www.linkedin.com/in/amar-singh-baghel-396a58b2?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" // ✅ Replace with actual LinkedIn URL
+              href="https://www.linkedin.com/in/amar-singh-baghel-396a58b2?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center space-x-2 bg-[#0a66c2] text-white px-4 py-2 rounded-lg shadow-md hover:bg-[#004182] transition-all"
@@ -26,72 +26,37 @@ const FoundationCard = () => {
           </div>
         </div>
 
-        {/* Right side - Content */}
-        <div className="md:w-1/2 p-8">
-          <div className="space-y-6">
-            <div>
-              <h1 className="text-3xl font-bold text-gray-900 mb-4 leading-tight">
-                About Samaj Setu Foundation
-              </h1>
-              <p className="text-lg text-[#8bc34a] font-medium mb-4">
-                For Sustainable Development in Rural India
+        {/* Right side - Pen of the Founder Content */}
+        <div className="md:w-1/2 p-5">
+          <div className="space-y-2 text-gray-700 leading-relaxed">
+            <h2 className="text-2xl font-bold text-[#6D4C41] mb-4">
+              ✍ Pen of the Founder – Samaj Setu Foundation
+            </h2>
+            <p className="italic text-gray-800">By Amar Singh Baghel</p>
+
+            <p>
+              With immense hope and unwavering belief in the power of collective action, I laid the foundation of Samaj Setu Foundation a bridge between the people and progress, between the challenges of society and the solutions rooted in compassion, inclusion, and sustainability.
+            </p>
+
+            <p>
+              Our nation is filled with potential, but it needs more platforms that listen, uplift, and empower. Through this foundation, our vision is not just to initiate development projects, but to build a <strong>jan andolan</strong> a people’s movement where every citizen becomes a participant in change.
+            </p>
+
+            <p>
+              We work for the marginalized, the underserved, and the forgotten from women and youth to tribal communities, from rural innovators to transgender individuals seeking dignity and opportunity. Samaj Setu is not just an organization. It is a Setu a bridge of trust, transformation, and togetherness.
+            </p>
+
+            <p>
+              Every step we take is guided by values of equity, transparency, and empathy. As the founder, I invite you all changemakers, institutions, and citizens to join hands in this journey. Let us make development not just a goal, but a shared celebration of human potential.
+            </p>
+
+            <div className="mt-6 text-right">
+              <p className="font-semibold text-gray-900">With gratitude and determination,</p>
+              <p className="font-bold text-[#6D4C41]">Amar Singh Baghel</p>
+              <p className="text-sm text-gray-700">
+                Founder & Chairman<br />
+                Samaj Setu Foundation
               </p>
-            </div>
-
-            <div className="space-y-4 text-gray-700 leading-relaxed">
-              <p>
-                Samaj Setu Foundation is a non-profit organization committed to empowering rural communities through inclusive, sustainable, and participatory development. Established with a vision to bridge the gap between grassroots realities and national development goals, the foundation works as a "Setu" (bridge) connecting people, policies, and progress.
-              </p>
-
-              <p>
-                Our mission is rooted in the belief that true development begins at the village level — where challenges are greatest, but the potential for transformation is even greater. Through innovative models, capacity-building programs, and convergence with government schemes, we aim to improve livelihoods, education, health, gender equality, environmental sustainability, and local governance.
-              </p>
-
-              <div>
-                <p className="font-semibold text-gray-800 mb-2">
-                  We actively align our initiatives with the United Nations Sustainable Development Goals (SDGs):
-                </p>
-                <div className="grid grid-cols-1 sm:grid-cols-2 gap-2 text-sm">
-                  <div className="flex items-center space-x-2">
-                    <span className="w-2 h-2 bg-[#8bc34a] rounded-full"></span>
-                    <span>No Poverty (SDG 1)</span>
-                  </div>
-                  <div className="flex items-center space-x-2">
-                    <span className="w-2 h-2 bg-[#8bc34a] rounded-full"></span>
-                    <span>Gender Equality (SDG 5)</span>
-                  </div>
-                  <div className="flex items-center space-x-2">
-                    <span className="w-2 h-2 bg-[#8bc34a] rounded-full"></span>
-                    <span>Clean Water and Sanitation (SDG 6)</span>
-                  </div>
-                  <div className="flex items-center space-x-2">
-                    <span className="w-2 h-2 bg-[#8bc34a] rounded-full"></span>
-                    <span>Decent Work and Economic Growth (SDG 8)</span>
-                  </div>
-                  <div className="flex items-center space-x-2">
-                    <span className="w-2 h-2 bg-[#8bc34a] rounded-full"></span>
-                    <span>Sustainable Communities (SDG 11)</span>
-                  </div>
-                  <div className="flex items-center space-x-2">
-                    <span className="w-2 h-2 bg-[#8bc34a] rounded-full"></span>
-                    <span>Climate Action (SDG 13)</span>
-                  </div>
-                </div>
-              </div>
-
-              <p>
-                From organic farming and cow-based eco-products to skill development for rural youth, digital literacy for women, support for tribal and nomadic communities, and rights-based awareness campaigns — Samaj Setu Foundation is creating models of rural resilience and self-reliance.
-              </p>
-
-              <p>
-                Our work is guided by the principles of transparency, inclusion, dignity, and collaboration. We invite individuals, organizations, and institutions to join us in building a rural India that is not only developed but sustainable, just, and equitable for all.
-              </p>
-
-              <div className="mt-6 p-4 bg-gradient-to-r from-green-50 to-blue-50 rounded-lg">
-                <p className="text-center font-semibold text-gray-800 italic">
-                  "Together, let's build villages of hope, hubs of innovation, and models of sustainable development."
-                </p>
-              </div>
             </div>
           </div>
         </div>
