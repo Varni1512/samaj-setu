@@ -1,10 +1,13 @@
 import React, { useRef, useState, useEffect } from 'react';
-import { Swiper, SwiperSlide } from 'swiper/react';
-import { Navigation } from 'swiper/modules';
+// import { Swiper, SwiperSlide } from 'swiper/react';
+// import { Navigation } from 'swiper/modules';
 import 'swiper/css';
 import 'swiper/css/navigation';
-import { FaChevronLeft, FaChevronRight } from "react-icons/fa";
-import { FaLinkedin, FaTwitter, FaEnvelope } from 'react-icons/fa';
+// import { FaChevronLeft, FaChevronRight } from "react-icons/fa";
+// import { FaLinkedin, FaTwitter, FaEnvelope } from 'react-icons/fa';
+import FoundationCard from './Founder';
+import MentorPage from './Mentor';
+import AdvisorPage from './Advisor';
 
 const Team = () => {
     const cards = [
@@ -72,13 +75,21 @@ const Team = () => {
     return (
         <div className="sm:px-10 px-4 py-10 bg-[#f3f8ed] min-h-screen">
             <div className="text-center mb-10">
-                <h2 className="text-3xl font-bold text-[#6D4C41]">Our Team</h2>
-                <p className="text-sm mt-2 text-gray-700 px-4">
+                <h2 className="text-3xl font-bold text-[#6D4C41]">Our Founder</h2>
+                {/* <p className="text-sm mt-2 text-gray-700 px-4">
                     Meet the dedicated individuals who work tirelessly to bring positive change in rural communities
-                </p>
+                </p> */}
             </div>
-
-            <div className="max-w-7xl mx-auto flex items-center justify-between gap-4">
+            <FoundationCard />
+            <MentorPage />
+            <div className="text-center ">
+                <h2 className="text-3xl font-bold text-[#6D4C41]">Our Advisors</h2>
+                {/* <p className="text-sm mt-2 text-gray-700 px-4">
+                    Meet the dedicated individuals who work tirelessly to bring positive change in rural communities
+                </p> */}
+            </div>
+            <AdvisorPage />
+            {/* <div className="max-w-7xl mx-auto flex items-center justify-between gap-4">
                 <div
                     ref={prevRef}
                     className="w-10 h-10 flex items-center justify-center bg-[#8bc34a] hover:bg-[#8bc34a] text-white rounded-full cursor-pointer"
@@ -153,8 +164,9 @@ const Team = () => {
                 >
                     <FaChevronRight />
                 </div>
-            </div>
+            </div> */}
         </div>
+        
     );
 };
 
