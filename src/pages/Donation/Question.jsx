@@ -90,13 +90,13 @@ const Question = () => {
                             <FaHeart className="mr-2" />
                             Donate Now
                         </Link>
-                        <Link
+                        {/* <Link
                             to="#"
                             className="inline-flex items-center justify-center px-5 py-2 bg-white text-gray-800 border border-gray-200 font-medium rounded-lg shadow-sm hover:bg-gray-100 transition"
                         >
                             <FaShareAlt className="mr-2" />
                             Share This Cause
-                        </Link>
+                        </Link> */}
                     </div>
                 </div>
             </div>

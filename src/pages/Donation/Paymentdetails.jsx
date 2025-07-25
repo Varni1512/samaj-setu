@@ -6,9 +6,9 @@ import { IoCheckmarkDoneCircle } from "react-icons/io5";
 const Paymentdetails = () => {
     return (
         <section className="px-4 py-8 bg-white mt-10">
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-7xl mx-auto">
+            <div className=" max-w-7xl mx-auto justify-items-center">
 
-                <div className="flex flex-col md:flex-row md:items-start border rounded-lg p-4 shadow-sm">
+                {/* <div className="flex flex-col md:flex-row md:items-start border rounded-lg p-4 shadow-sm">
                     <img
                         src="/Payment/QR.jpg"
                         alt="QR Code for UPI payment"
@@ -52,10 +52,10 @@ const Paymentdetails = () => {
                             </div>
                         ))}
                     </div>
-                </div>
+                </div> */}
 
 
-                <div className="border rounded-lg shadow-sm w-full">
+                <div className="border rounded-lg shadow-sm w-full max-w-md">
                     <div className="bg-[#aee555] flex items-center px-4 py-3 rounded-t-lg">
                         <img
                             src="/Logo/Logo2.png"
