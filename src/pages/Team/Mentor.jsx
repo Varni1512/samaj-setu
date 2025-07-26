@@ -5,7 +5,7 @@ const MentorPage = () => {
   const mentors = [
     {
       name: "Anurenj P Kumar",
-      role: "Senior Advisor & Mentor",
+      role: "Advisor & Mentor",
       image: "/mentor1.jpg", 
       resume: "/Anurenj.pdf", 
     },
