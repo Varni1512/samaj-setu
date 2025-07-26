@@ -19,7 +19,9 @@ const Footer = () => {
                     <p className="text-gray-300">
                         Empowering communities through holistic development initiatives since 2010. Together, we can create lasting change.
                     </p>
-                    <div className="flex space-x-4 text-lg text-white">
+
+                    {/* Social Media (Desktop Only) */}
+                    <div className="hidden sm:flex space-x-4 text-lg text-white">
                         <a href="https://youtube.com/@samajsetufoundation?si=EwiTOlQ3efGszK94"><FaYoutube /></a>
                         <a href="https://x.com/SamajSetu?t=vA13oFfhztaks4m2h9nnow&s=09"><FaXTwitter /></a>
                         <a href="https://www.instagram.com/samaj_setu_foundation"><FaInstagram /></a>
@@ -117,6 +119,17 @@ const Footer = () => {
                         By subscribing, you agree to our <a href="#" className="underline">Privacy Policy</a>.
                     </p>
                 </div>
+            </div>
+
+            {/* ✅ Mobile Only: Social Media + Copyright */}
+            <div className="sm:hidden mt-8 flex flex-col items-center space-y-4">
+                <div className="flex space-x-4 text-lg text-white">
+                    <a href="https://youtube.com/@samajsetufoundation?si=EwiTOlQ3efGszK94"><FaYoutube /></a>
+                    <a href="https://x.com/SamajSetu?t=vA13oFfhztaks4m2h9nnow&s=09"><FaXTwitter /></a>
+                    <a href="https://www.instagram.com/samaj_setu_foundation"><FaInstagram /></a>
+                    <a href="https://www.linkedin.com/company/samaj-setu-foundation"><FaLinkedinIn /></a>
+                </div>
+                <p className="text-gray-400 text-xs">© 2025 Samaj Setu</p>
             </div>
         </footer>
     );
