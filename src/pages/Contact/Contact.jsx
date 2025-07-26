@@ -34,7 +34,7 @@ export default function Contact() {
                                 <MapPin className="text-green-500 w-6 h-6" />
                             </div>
                             <p className="text-gray-700 text-base sm:text-lg font-medium">
-                                <strong>OUR LOCATION:</strong> 123 Example Road, Indore, MP
+                                <strong>OUR LOCATION:</strong> 47/2 Sanvid Nagar near kanadiya road indore
                             </p>
                         </div>
 
@@ -43,7 +43,7 @@ export default function Contact() {
                                 <Mail className="text-green-500 w-6 h-6 " />
                             </div>
                             <p className="text-gray-700 text-base sm:text-lg font-medium ">
-                                <strong>SEND US MAIL:</strong> info@samajsetu.org
+                                <strong>SEND US MAIL:</strong> samajsetufoundation@gmail.com 
                             </p>
                         </div>
 
@@ -52,7 +52,7 @@ export default function Contact() {
                                 <Phone className="text-green-500 w-6 h-6" />
                             </div>
                             <p className="text-gray-700 text-base sm:text-lg font-medium">
-                                <strong>CALL US:</strong> +91 98765 43210
+                                <strong>CALL US:</strong> +91 9179441567
                             </p>
                         </div>
                     </div>

@@ -69,10 +69,10 @@ const Paymentdetails = () => {
                             Direct Bank Transfer
                         </h2>
                         <ul className="space-y-1 mt-5 text-base sm:text-lg">
-                            <li>Name: SAMAJ SETU FOUNDATION</li>
-                            <li>Bank: State Bank of India</li>
-                            <li>A/C No: 40052876391</li>
-                            <li>IFSC Code: SBIN002156</li>
+                            <li>Name : Samaj Setu Foundation</li>
+                            <li>Bank : Bandhan Bank</li>
+                            <li>A/C No : 20100043680101</li>
+                            <li>IFSC : BDBL0002416</li>
                         </ul>
                     </div>
                 </div>
