@@ -4,15 +4,15 @@ import { Download } from "lucide-react";
 const MentorPage = () => {
   const mentors = [
     {
-      name: "Dr. Rajesh Sharma",
+      name: "Anurenj P Kumar",
       role: "Senior Advisor & Mentor",
       image: "/mentor1.jpg", 
       resume: "/Anurenj.pdf", 
     },
     {
-      name: "Prof. Anjali Verma",
-      role: "Development Consultant & Mentor",
-      image: "/mentor1.jpg",
+      name: "G GEORGE",
+      role: "Founder and CEO SHASHWATGYAN",
+      image: "/mentor2.jpg",
       resume: "/George.pdf", 
     },
   ];
