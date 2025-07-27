@@ -86,7 +86,7 @@ With her, in ITI-YOG, you don’t just practice yoga—you experience a complete
           </p>
           <button
             onClick={() => setShowMore(!showMore)}
-            className="mt-4 text-[#8bc34a] font-semibold hover:underline"
+            className="flex items-center mt-5 space-x-2 bg-[#8bc34a] text-white px-5 py-2 rounded-lg shadow hover:bg-[#7cb342] transition-all cursor-pointer"
           >
             {showMore ? "Read Less" : "Read More"}
           </button>
