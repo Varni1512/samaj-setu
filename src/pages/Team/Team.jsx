@@ -8,6 +8,7 @@ import 'swiper/css/navigation';
 import FoundationCard from './Founder';
 import MentorPage from './Mentor';
 import AdvisorPage from './Advisor';
+import Team1 from './Team1';
 
 const Team = () => {
     const cards = [
@@ -84,87 +85,9 @@ const Team = () => {
             <MentorPage />
             <div className="text-center ">
                 <h2 className="text-3xl font-bold text-[#6D4C41]">Our Advisors</h2>
-                {/* <p className="text-sm mt-2 text-gray-700 px-4">
-                    Meet the dedicated individuals who work tirelessly to bring positive change in rural communities
-                </p> */}
             </div>
             <AdvisorPage />
-            {/* <div className="max-w-7xl mx-auto flex items-center justify-between gap-4">
-                <div
-                    ref={prevRef}
-                    className="w-10 h-10 flex items-center justify-center bg-[#8bc34a] hover:bg-[#8bc34a] text-white rounded-full cursor-pointer"
-                >
-                    <FaChevronLeft />
-                </div>
-
-                <Swiper
-                    onSwiper={setSwiperInstance}
-                    slidesPerView={4}
-                    spaceBetween={20}
-                    loop={true}
-                    modules={[Navigation]}
-                    breakpoints={{
-                        0: { slidesPerView: 1 },
-                        640: { slidesPerView: 1 },
-                        1024: { slidesPerView: 4 },
-                    }}
-                    className="flex-1"
-                >
-                    {cards.map((member, index) => (
-                        <SwiperSlide key={index}>
-                            <div className="rounded-xl bg-white flex flex-col justify-between shadow-md min-h-[450px] overflow-hidden">
-                                <div>
-                                    <div className="relative">
-                                        <img
-                                            src={member.card}
-                                            alt={member.name}
-                                            className="w-full h-64 object-cover"
-                                        />
-                                        <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black via-transparent p-4 text-white">
-                                            <h3 className="font-semibold text-lg">{member.name}</h3>
-                                            <p className="text-sm">{member.position}</p>
-                                        </div>
-                                    </div>
-                                    <div className="p-4 text-sm text-gray-700">
-                                        <p className="mb-4">{member.description}</p>
-                                    </div>
-                                </div>
-                                <div className="p-4 pt-0 flex gap-3">
-                                    <a
-                                        href={member.linkedln}
-                                        target="_blank"
-                                        rel="noopener noreferrer"
-                                        className="rounded-full w-8 h-8 flex items-center justify-center text-black bg-gray-100"
-                                    >
-                                        <FaLinkedin size={14} />
-                                    </a>
-                                    <a
-                                        href={member.x}
-                                        target="_blank"
-                                        rel="noopener noreferrer"
-                                        className="rounded-full w-8 h-8 flex items-center justify-center text-black bg-gray-100"
-                                    >
-                                        <FaTwitter size={14} />
-                                    </a>
-                                    <a
-                                        href={member.gmail}
-                                        className="rounded-full w-8 h-8 flex items-center justify-center text-black bg-gray-100"
-                                    >
-                                        <FaEnvelope size={14} />
-                                    </a>
-                                </div>
-                            </div>
-                        </SwiperSlide>
-                    ))}
-                </Swiper>
-
-                <div
-                    ref={nextRef}
-                    className="w-10 h-10 flex items-center justify-center bg-[#8bc34a] hover:bg-[#8bc34a] text-white rounded-full cursor-pointer"
-                >
-                    <FaChevronRight />
-                </div>
-            </div> */}
+            <Team1 />
         </div>
         
     );
