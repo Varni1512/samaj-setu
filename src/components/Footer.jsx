@@ -39,8 +39,8 @@ const Footer = () => {
                             About Us
                         </HashLink></li>
                         <li><Link to="/services" className="hover:text-[#8bc34a]">Services</Link></li>
-                        <li><Link href="/gallery" className="hover:text-[#8bc34a]">Gallery</Link></li>
-                        <li><Link href="/team" className="hover:text-[#8bc34a]">Our Team</Link></li>
+                        <li><Link to="/gallery" className="hover:text-[#8bc34a]">Gallery</Link></li>
+                        <li><Link to="/team" className="hover:text-[#8bc34a]">Our Team</Link></li>
                         <li><Link to="/contact" className="hover:text-[#8bc34a]">Contact</Link></li>
                     </ul>
                 </div>
@@ -60,8 +60,8 @@ const Footer = () => {
                             <li><Link to="/" className="hover:text-[#8bc34a]">Home</Link></li>
                             <li><Link to="/#about" className="hover:text-[#8bc34a]">About Us</Link></li>
                             <li><Link to="/services" className="hover:text-[#8bc34a]">Services</Link></li>
-                            <li><a href="/gallery" className="hover:text-[#8bc34a]">Gallery</a></li>
-                            <li><a href="/team" className="hover:text-[#8bc34a]">Our Team</a></li>
+                            <li><Link to="/gallery" className="hover:text-[#8bc34a]">Gallery</Link></li>
+                            <li><Link to="/team" className="hover:text-[#8bc34a]">Our Team</Link></li>
                             <li><Link to="/contact" className="hover:text-[#8bc34a]">Contact</Link></li>
                         </ul>
                     )}
@@ -71,12 +71,12 @@ const Footer = () => {
                 <div className="hidden sm:flex flex-col space-y-3">
                     <h3 className="text-white font-semibold">Our Services</h3>
                     <ul className="space-y-2 text-gray-400">
-                        <li><a href="/services" className="hover:text-[#8bc34a]">Health & Wellness</a></li>
-                        <li><a href="/services" className="hover:text-[#8bc34a]">Education & Skills</a></li>
-                        <li><a href="/services" className="hover:text-[#8bc34a]">Women Empowerment</a></li>
-                        <li><a href="/services" className="hover:text-[#8bc34a]">Environment</a></li>
-                        <li><a href="/services" className="hover:text-[#8bc34a]">Rural Development</a></li>
-                        <li><a href="/services" className="hover:text-[#8bc34a]">View All Services</a></li>
+                        <li><Link to="/services" className="hover:text-[#8bc34a]">Health & Wellness</Link></li>
+                        <li><Link to="/services" className="hover:text-[#8bc34a]">Education & Skills</Link></li>
+                        <li><Link to="/services" className="hover:text-[#8bc34a]">Women Empowerment</Link></li>
+                        <li><Link to="/services" className="hover:text-[#8bc34a]">Environment</Link></li>
+                        <li><Link to="/services" className="hover:text-[#8bc34a]">Rural Development</Link></li>
+                        <li><Link to="/services" className="hover:text-[#8bc34a]">View All Services</Link></li>
                     </ul>
                 </div>
 
@@ -92,12 +92,12 @@ const Footer = () => {
 
                     {showServices && (
                         <ul className="mt-2 space-y-2 text-gray-400">
-                            <li><a href="/services" className="hover:text-[#8bc34a]">Health & Wellness</a></li>
-                            <li><a href="/services" className="hover:text-[#8bc34a]">Education & Skills</a></li>
-                            <li><a href="/services" className="hover:text-[#8bc34a]">Women Empowerment</a></li>
-                            <li><a href="/services" className="hover:text-[#8bc34a]">Environment</a></li>
-                            <li><a href="/services" className="hover:text-[#8bc34a]">Rural Development</a></li>
-                            <li><a href="/services" className="hover:text-[#8bc34a]">View All Services</a></li>
+                            <li><Link to="/services" className="hover:text-[#8bc34a]">Health & Wellness</Link></li>
+                            <li><Link to="/services" className="hover:text-[#8bc34a]">Education & Skills</Link></li>
+                            <li><Link to="/services" className="hover:text-[#8bc34a]">Women Empowerment</Link></li>
+                            <li><Link to="/services" className="hover:text-[#8bc34a]">Environment</Link></li>
+                            <li><Link to="/services" className="hover:text-[#8bc34a]">Rural Development</Link></li>
+                            <li><Link to="/services" className="hover:text-[#8bc34a]">View All Services</Link></li>
                         </ul>
                     )}
                 </div>
