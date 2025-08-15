@@ -7,7 +7,8 @@ const partnerLogos = [
   "/Logo/logo2.jpg",
   "/Logo/logo3.jpg",
   "/Logo/logo4.jpg",
-  "/Logo/logo5.png"
+  "/Logo/logo5.png",
+  "/Logo/logo6.jpg"
 ];
 
 export default function Partner() {
@@ -16,13 +17,13 @@ export default function Partner() {
       <h3 className="text-3xl font-bold text-[#6D4C41] mb-4">
         Our Partner Organization
       </h3>
-      <div className="flex flex-wrap justify-center gap-6">
+      <div className="flex flex-wrap justify-center gap-24">
         {partnerLogos.map((logo, idx) => (
           <img
             key={logo}
             src={logo}
             alt={`Partner Logo ${idx + 1}`}
-            className="w-28 h-28 object-contain rounded-lg  p-2 shadow-md"
+            className="w-28 h-28 object-contain rounded-lg  p-2 shadow-md bg-[#f3f8ed]"
           />
         ))}
       </div>

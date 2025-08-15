@@ -6,7 +6,7 @@ const About = () => {
     const [showMore, setShowMore] = useState(false);
 
     return (
-        <div className="px-8 md:px-10 md:h-auto flex py-10 bg-white" id="about">
+        <div className="px-8 md:px-10 md:h-auto flex py-10 bg-white pt-[100px]" id="about">
             <div className="max-w-7xl mx-auto">
 
                 {/* Heading (always on top in mobile and desktop) */}

@@ -56,7 +56,7 @@ const Health = () => {
         },
         {
             icon: <MdOutlineGroups className="w-5 h-5 text-green-500" />,
-            image: '/Home/service2.webp',
+            image: '/Home/service2.png',
             title: 'Environment & Sustainability',
             description:
                 'Protecting our planet through education and action:',

@@ -7,14 +7,14 @@ import Landingpage from './pages/Landingpage';
 import Footer from './components/Footer';
 import Service from './pages/Services/Service';
 import Contact from './pages/Contact/Contact';
-import Form from './pages/Contact/Form';
 import Gallery from './pages/Gallery/Gallery';
 import Team from './pages/OurTeam/Team';
-
+import ScrollToTop from './components/ScrollToTop'; // ✅ import it
 
 function App() {
   return (
     <Router>
+      <ScrollToTop /> {/* ✅ ensures page scrolls to top on route change */}
       <Navbar />
       <Routes>
         <Route path="/" element={<Landingpage />} />
