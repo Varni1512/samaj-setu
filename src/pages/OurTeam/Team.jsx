@@ -65,6 +65,24 @@ const TeamShowcase = () => {
     ],
     'Corporate Wing': [
       {
+        id: 19,
+        name: 'Amar Singh Baghel',
+        position: 'CEO',
+        image: '/board/founder.jpg'
+      },
+      {
+        id: 16,
+        name: 'Himanshu Varshney',
+        position: 'COF',
+        image: '/board/10.jpg'
+      },
+      {
+        id: 13,
+        name: 'Atul Saxena',
+        position: 'COF',
+        image: '/board/demo.jpg'
+      },
+      {
         id: 10,
         name: 'Kratika Jain',
         position: 'CHRO',
@@ -81,25 +99,8 @@ const TeamShowcase = () => {
         name: 'Prateek Jain',
         position: 'CSR Head',
         image: '/board/6.jpg'
-      },
-      {
-        id: 13,
-        name: 'Atul Saxena',
-        position: 'COF',
-        image: '/board/demo.jpg'
-      },
-      {
-        id: 15,
-        name: 'Sai kumar',
-        position: 'Regional head south india',
-        image: '/board/9.jpg'
-      },
-      {
-        id: 16,
-        name: 'Himanshu Varshney',
-        position: 'COF',
-        image: '/board/10.jpg'
       }
+      
     ],
     'Social Wing': [
       {
@@ -119,6 +120,12 @@ const TeamShowcase = () => {
         name: 'DR.Amit Jain',
         position: 'Head - Ashok Nagar ( M.P.)',
         image: '/board/8.jpg'
+      },
+      {
+        id: 15,
+        name: 'Sai kumar',
+        position: 'Regional head south india',
+        image: '/board/9.jpg'
       }
     ],
   };
