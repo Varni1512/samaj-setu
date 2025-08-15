@@ -10,7 +10,11 @@ const Home = () => {
         { id: 2, title: "Spiritual Collection", bgImage: "/Home/home2.jpg" },
         { id: 3, title: "Crystal Power", bgImage: "/Home/home3.jpg" },
         { id: 4, title: "Yantra Magic", bgImage: "/Home/home4.jpg" },
-        { id: 5, title: "Yantra Magic", bgImage: "/Home/home5.jpg" }
+        { id: 5, title: "Yantra Magic", bgImage: "/Home/home5.jpg" },
+        { id: 6, title: "Yantra Magic", bgImage: "/Home/home6.jpg" },
+        { id: 7, title: "Yantra Magic", bgImage: "/Home/home7.jpg" },
+        { id: 8, title: "Yantra Magic", bgImage: "/Home/home8.jpg" }
+
     ];
 
     // Auto Slide
