@@ -169,20 +169,6 @@ const TeamShowcase = () => {
                 ))}
             </div>
 
-            {/* Bottom Section */}
-            <div className="mt-16 text-center">
-                <div className="bg-gradient-to-r from-blue-50 to-indigo-50 rounded-2xl p-6 md:p-8">
-                    <h2 className="text-2xl md:text-3xl font-bold text-gray-800 mb-4">
-                        Join Our Mission
-                    </h2>
-                    <p className="text-gray-600 mb-6 max-w-2xl mx-auto">
-                        We're always looking for passionate individuals to join our team and make a difference.
-                    </p>
-                    <button className="bg-blue-600 text-white px-6 py-3 md:px-8 md:py-4 rounded-full font-medium hover:bg-blue-700 transform hover:scale-105 transition-all duration-300 shadow-lg">
-                        Get In Touch
-                    </button>
-                </div>
-            </div>
         </div>
     );
 };
