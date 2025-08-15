@@ -63,7 +63,7 @@ const TeamShowcase = () => {
         image: '/board/demo.jpg'
       }
     ],
-    'Coperate Wing': [
+    'Corporate Wing': [
       {
         id: 10,
         name: 'Kratika Jain',
