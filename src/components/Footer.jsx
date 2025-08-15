@@ -36,11 +36,11 @@ const Footer = () => {
                     <ul className="space-y-2 text-gray-400">
                         <li><Link to="/" className="hover:text-[#8bc34a]">Home</Link></li>
                         <li><HashLink smooth to="/about#about" className="hover:text-[#8bc34a]">
-  About Us
-</HashLink></li>
+                            About Us
+                        </HashLink></li>
                         <li><Link to="/services" className="hover:text-[#8bc34a]">Services</Link></li>
-                        <li><a href="/gallery" className="hover:text-[#8bc34a]">Gallery</a></li>
-                        <li><a href="/team" className="hover:text-[#8bc34a]">Our Team</a></li>
+                        <li><Link href="/gallery" className="hover:text-[#8bc34a]">Gallery</Link></li>
+                        <li><Link href="/team" className="hover:text-[#8bc34a]">Our Team</Link></li>
                         <li><Link to="/contact" className="hover:text-[#8bc34a]">Contact</Link></li>
                     </ul>
                 </div>
