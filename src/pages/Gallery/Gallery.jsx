@@ -9,6 +9,18 @@ const Gallery = () => {
             </h2>
 
             <section className="grid grid-cols-1 md:grid-cols-3  gap-10 py-14 px-6 sm:px-12 lg:px-32">
+                <div className="w-full h-[600px] overflow-hidden rounded-lg">
+                    <img src="/Gallery/p43.jpg" alt="p43" className="w-full h-full object-cover" />
+                </div>
+                <div className="w-full h-[600px] overflow-hidden rounded-lg">
+                    <img src="/Gallery/p44.jpg" alt="p43" className="w-full h-full object-cover" />
+                </div>
+                <div className="w-full h-[600px] overflow-hidden rounded-lg">
+                    <img src="/Gallery/p45.jpg" alt="p43" className="w-full h-full object-cover" />
+                </div>
+                <div className="w-full h-[400px] overflow-hidden rounded-lg">
+                    <img src="/Gallery/p46.jpg" alt="p15" className="w-full h-full object-cover" />
+                </div>
                 <div className="w-full h-[400px] overflow-hidden rounded-lg">
                     <img src="/Gallery/p15.jpg" alt="p15" className="w-full h-full object-cover" />
                 </div>
@@ -93,10 +105,6 @@ const Gallery = () => {
                 <div className="w-full h-[400px] overflow-hidden rounded-lg">
                     <img src="/Gallery/p42.jpg" alt="p42" className="w-full h-full object-cover" />
                 </div>
-                <div className="w-full h-[400px] overflow-hidden rounded-lg">
-                    <img src="/Gallery/p43.jpg" alt="p43" className="w-full h-full object-cover" />
-                </div>
-
                 <div className="w-full h-[400px] overflow-hidden rounded-lg">
                     <img src="/Gallery/p1.jpg" alt="p1" className="w-full h-full object-cover" />
                 </div>
