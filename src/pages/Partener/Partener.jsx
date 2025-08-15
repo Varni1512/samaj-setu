@@ -14,7 +14,7 @@ export default function Partner() {
   return (
     <div className="mt-1 w-full flex flex-col items-center">
       <h3 className="text-3xl font-bold text-[#6D4C41] mb-4">
-        Our Partner Companies
+        Our Partner Organization
       </h3>
       <div className="flex flex-wrap justify-center gap-6">
         {partnerLogos.map((logo, idx) => (
