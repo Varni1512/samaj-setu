@@ -89,12 +89,6 @@ const TeamShowcase = () => {
         image: '/board/demo.jpg'
       },
       {
-        id: 14,
-        name: 'DR.Amit Jain',
-        position: 'Head - Ashok Nagar ( M.P.)',
-        image: '/board/8.jpg'
-      },
-      {
         id: 15,
         name: 'Sai kumar',
         position: 'Regional head south india',
@@ -105,7 +99,9 @@ const TeamShowcase = () => {
         name: 'Himanshu Varshney',
         position: 'COF',
         image: '/board/10.jpg'
-      },
+      }
+    ],
+    'Social Wing': [
       {
         id: 17,
         name: 'Dr.Ritesh Kumar Agrawal',
@@ -118,7 +114,13 @@ const TeamShowcase = () => {
         position: 'Education head',
         image: '/board/13.jpg'
       },
-    ]
+      {
+        id: 14,
+        name: 'DR.Amit Jain',
+        position: 'Head - Ashok Nagar ( M.P.)',
+        image: '/board/8.jpg'
+      }
+    ],
   };
 
   const TeamCard = ({ member }) => (
