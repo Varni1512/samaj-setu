@@ -73,13 +73,13 @@ const TeamShowcase = () => {
       {
         id: 16,
         name: 'Himanshu Varshney',
-        position: 'COF',
+        position: 'COO',
         image: '/board/10.jpg'
       },
       {
         id: 13,
         name: 'Atul Saxena',
-        position: 'COF',
+        position: 'CFO',
         image: '/board/demo.jpg'
       },
       {
