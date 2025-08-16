@@ -112,7 +112,7 @@ const TeamShowcase = () => {
       {
         id: 18,
         name: 'Seemant Deshpande',
-        position: 'Education head',
+        position: 'National Education head',
         image: '/board/13.jpg'
       },
       {
