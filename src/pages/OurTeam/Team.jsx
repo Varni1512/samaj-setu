@@ -6,7 +6,7 @@ const TeamShowcase = () => {
     'Board of Members': [
       {
         id: 1,
-        name: 'Pragya Jain',
+        name: 'Pragya Soni',
         position: 'Co Chairman',
         image: '/board/1.jpg'
       },
