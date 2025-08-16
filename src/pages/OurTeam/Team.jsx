@@ -117,7 +117,7 @@ const TeamShowcase = () => {
       },
       {
         id: 14,
-        name: 'DR.Amit Jain',
+        name: 'Dr.Amit Jain',
         position: 'Head - Ashok Nagar ( M.P.)',
         image: '/board/8.jpg'
       },
